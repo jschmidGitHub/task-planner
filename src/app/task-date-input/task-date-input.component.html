@@ -1,0 +1,16 @@
+<div class="date-time-input">
+  <label>
+    Date:
+    <input type="date"
+           [value]="datePart"
+           (change)="onDateChange($event)"
+           required>
+  </label>
+
+  <label>
+    Time:
+    <input type="time"
+           [value]="timePart"
+           (change)="onTimeChange($event)">
+  </label>
+</div>

@@ -1,0 +1,16 @@
+.date-time-input {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.date-time-input label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9em;
+}
+
+.date-time-input input {
+  padding: 4px;
+}

@@ -1,0 +1,5 @@
+<div class="add-task-form">
+  <app-task-name-input [(taskName)]="newTaskName" />
+  <app-task-date-input [(taskDate)]="newTaskDate" required />
+    <button (click)="addTask()">Add Task</button>
+</div>

@@ -1,0 +1,6 @@
+@if(task) {
+  <div [class.is-due]="task.isDueToday">
+    <p>{{task.name}} at {{ task.time | date:'h:mm a' }} on {{ task.time | date:'MMMM d, y' }}</p>
+    <button (click)="onComplete(task)">Complete Task</button>
+  </div>
+}

@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  color: #2c3e50;
+  max-width: 600px;
+}
+
+input[type="text"], input[type="date"], button {
+  padding: 8px;
+  margin: 5px 0;
+  border: 2px solid #dcdcdc;  
+  border-radius: 4px;
+  width: calc(100% - 16px);  
+}
+
+button {
+  cursor: pointer;
+  background-color: #3498db;  
+  color: white;
+  border: none;
+  max-width: 600px;
+}
+
+button:hover {
+  background-color: #2980b9;  
+}
