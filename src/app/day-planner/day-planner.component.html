@@ -1,7 +1,9 @@
+Enter a New Task:
 <app-add-task (addTaskEvent)="handleNewTask($event)"/>
 <br />
 <br />
 
+Tasks: (click a task to see details)
 @for(task of tasks; track task.id) {
 
 @if(task.completed === false) {
